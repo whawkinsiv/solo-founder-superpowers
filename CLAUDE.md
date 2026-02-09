@@ -4,45 +4,39 @@ This file provides guidance to Claude Code (claude.ai/code) when working with th
 
 ## Repository Purpose
 
-A comprehensive knowledge base for non-technical founders building SaaS applications with AI tools (Claude Code, Lovable, Replit, Cursor). Contains markdown guides, checklists, and reference material — no executable code.
+A Claude Code plugin for non-technical founders building SaaS applications with AI tools (Claude Code, Lovable, Replit, Cursor). Contains 30+ skills covering the full build lifecycle plus business, marketing, and growth strategy.
 
 ## Structure
 
-### `developer-skills/` — Software Development Lifecycle
+This is a Claude Code plugin. The manifest lives at `.claude-plugin/plugin.json`.
 
-Eight numbered directories following a build progression:
+### `skills/` — All Skills
 
-1. **1-scope** - Turn ideas into AI-ready specs (Quick Feature Specs, Full Project Scopes)
-2. **2-design** - UX/UI patterns for SaaS (Laws of UX, component patterns, design systems)
-3. **3-build** - AI-assisted development workflows and tool selection
-4. **4-secure** - Security checklists and OWASP vulnerability guidance
-5. **5-optimize** - Speed, code, database, and dependency optimization
-6. **6-test** - Testing scenarios, edge cases, intentional bug hunting
-7. **7-debug** - Systematic debugging workflows and error interpretation
-8. **8-monitor** - Production health monitoring and incident response
+Each subdirectory is a skill containing `SKILL.md` (required) plus optional supporting files.
 
-Each directory contains:
-- `SKILL.md` - Main overview and workflow (always under 500 lines)
-- Supporting `[TOPIC].md` files - Detailed patterns, templates, and examples
+**Development Lifecycle:**
+- **scope** - Turn ideas into AI-ready specs (Quick Feature Specs, Full Project Scopes)
+- **design** - UX/UI patterns for SaaS (Laws of UX, component patterns, design systems)
+- **build** - AI-assisted development workflows and tool selection
+- **secure** - Security checklists and OWASP vulnerability guidance
+- **optimize** - Speed, code, database, and dependency optimization
+- **test** - Testing scenarios, edge cases, intentional bug hunting
+- **debug** - Systematic debugging workflows and error interpretation
+- **monitor** - Production health monitoring and incident response
 
-Also includes `COMPLETE-SKILLS-SUMMARY.md` with a master index and cross-references.
+**Strategy:** product-strategy-prioritization, pricing-monetization-strategy, saas-financial-modeling-metrics, saas-legal-business-formation
 
-### `non-code-skills/` — Business, Product & Marketing
+**Marketing & Growth:** seo-content-strategy, content-marketing-build-in-public, email-lifecycle-marketing, founder-led-sales-outreach, paid-acquisition-ad-copy, growth-plg
 
-22 single-file skills covering the non-coding side of building a SaaS:
+**Product & Design:** ux-ui-design, onboarding-activation-design, information-architecture, customer-research-personas, customer-support-documentation
 
-- **Strategy:** product-strategy-prioritization, pricing-monetization-strategy, saas-financial-modeling-metrics, saas-legal-business-formation
-- **Marketing & Growth:** seo-content-strategy, content-marketing-build-in-public, email-lifecycle-marketing, founder-led-sales-outreach, paid-acquisition-ad-copy, growth-plg
-- **Product & Design:** ux-ui-design, onboarding-activation-design, information-architecture, customer-research-personas, customer-support-documentation
-- **Brand & Messaging:** brand-identity-visual-design, copywriting-microcopy, landing-page-strategy, market-research-competitive-analysis, conversion-rate-optimization
-- **Technical:** analytics-instrumentation, accessibility
+**Brand & Messaging:** brand-identity-visual-design, copywriting-microcopy, landing-page-strategy, market-research-competitive-analysis, conversion-rate-optimization
 
-Each contains a single `SKILL.md` with expert-level guidance for that domain.
+**Technical:** analytics-instrumentation, accessibility, technical-seo-expert
 
 ### `commands/` — Claude Code Custom Commands
 
 - `improve-prompt.md` - Transforms vague coding requests into detailed, specific prompts
-- `README.md` - Installation and usage guide
 
 ## File Conventions
 
