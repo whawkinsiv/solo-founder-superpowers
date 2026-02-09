@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with th
 
 ## Repository Purpose
 
-A Claude Code plugin for non-technical founders building SaaS applications with AI tools (Claude Code, Lovable, Replit, Cursor). Contains 30+ skills covering the full build lifecycle plus business, marketing, and growth strategy.
+A Claude Code plugin for non-technical founders building SaaS applications with AI tools (Claude Code, Lovable, Replit, Cursor). Contains 36 skills covering the full build lifecycle plus business, marketing, and growth strategy.
 
 ## Structure
 
@@ -23,14 +23,17 @@ Each subdirectory is a skill containing `SKILL.md` (required) plus optional supp
 - **test** - Testing scenarios, edge cases, intentional bug hunting
 - **debug** - Systematic debugging workflows and error interpretation
 - **monitor** - Production health monitoring and incident response
+- **deployment-going-live** - Hosting selection, domain setup, and going from local to production
 
 **Strategy:** product-strategy-prioritization, pricing-monetization-strategy, saas-financial-modeling-metrics, saas-legal-business-formation
 
-**Marketing & Growth:** seo-content-strategy, content-marketing-build-in-public, email-lifecycle-marketing, founder-led-sales-outreach, paid-acquisition-ad-copy, growth-plg
+**Marketing & Growth:** seo-content-strategy, content-marketing-build-in-public, email-lifecycle-marketing, founder-led-sales-outreach, paid-acquisition-ad-copy, growth-plg, launch-go-to-market
 
 **Product & Design:** ux-ui-design, onboarding-activation-design, information-architecture, customer-research-personas, customer-support-documentation
 
 **Brand & Messaging:** brand-identity-visual-design, copywriting-microcopy, landing-page-strategy, market-research-competitive-analysis, conversion-rate-optimization
+
+**Operations:** payments-billing-operations, churn-prevention-retention, hiring-technical-help
 
 **Technical:** analytics-instrumentation, accessibility, technical-seo-expert
 
