@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with th
 
 ## Repository Purpose
 
-A Claude Code plugin for non-technical founders building SaaS applications with AI tools (Claude Code, Lovable, Replit, Cursor). Contains 36 skills covering the full build lifecycle plus business, marketing, and growth strategy.
+A Claude Code plugin for non-technical founders building SaaS applications with AI tools (Claude Code, Lovable, Replit, Cursor). Contains 43 skills covering the full build lifecycle plus business, marketing, and growth strategy.
 
 ## Structure
 
@@ -14,28 +14,17 @@ This is a Claude Code plugin. The manifest lives at `.claude-plugin/plugin.json`
 
 Each subdirectory is a skill containing `SKILL.md` (required) plus optional supporting files.
 
-**Development Lifecycle:**
-- **scope** - Turn ideas into AI-ready specs (Quick Feature Specs, Full Project Scopes)
-- **design** - UX/UI patterns for SaaS (Laws of UX, component patterns, design systems)
-- **build** - AI-assisted development workflows and tool selection
-- **secure** - Security checklists and OWASP vulnerability guidance
-- **optimize** - Speed, code, database, and dependency optimization
-- **test** - Testing scenarios, edge cases, intentional bug hunting
-- **debug** - Systematic debugging workflows and error interpretation
-- **monitor** - Production health monitoring and incident response
-- **deployment-going-live** - Hosting selection, domain setup, and going from local to production
+**Development & Technical:** build, database, integrations, ai-features, deploy, secure, test, debug, optimize, monitor
 
-**Strategy:** product-strategy-prioritization, pricing-monetization-strategy, saas-financial-modeling-metrics, saas-legal-business-formation
+**Design & UX:** design, brand, navigation, onboarding, accessibility
 
-**Marketing & Growth:** seo-content-strategy, content-marketing-build-in-public, email-lifecycle-marketing, founder-led-sales-outreach, paid-acquisition-ad-copy, growth-plg, launch-go-to-market
+**SEO & Content:** seo, technical-seo, content, copywriting
 
-**Product & Design:** ux-ui-design, onboarding-activation-design, information-architecture, customer-research-personas, customer-support-documentation
+**Growth & Marketing:** launch, landing-page, growth, conversion, email, ads, sales, social-media, community
 
-**Brand & Messaging:** brand-identity-visual-design, copywriting-microcopy, landing-page-strategy, market-research-competitive-analysis, conversion-rate-optimization
+**Strategy & Planning:** plan, validate, customer-research, market-research, pricing, prioritize, feedback, analytics
 
-**Operations:** payments-billing-operations, churn-prevention-retention, hiring-technical-help
-
-**Technical:** analytics-instrumentation, accessibility, technical-seo-expert
+**Business Operations:** legal, finances, accounting, payments, hiring, support, retention
 
 ### `commands/` — Claude Code Custom Commands
 
