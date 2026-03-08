@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with th
 
 ## Repository Purpose
 
-A Claude Code plugin for non-technical founders building SaaS applications with AI tools (Claude Code, Lovable, Replit, Cursor). Contains 43 skills covering the full build lifecycle plus business, marketing, and growth strategy.
+A Claude Code plugin for non-technical founders building SaaS applications with AI tools (Claude Code, Lovable, Replit, Cursor). Contains 45 skills covering the full build lifecycle plus business, marketing, and growth strategy.
 
 ## Structure
 
