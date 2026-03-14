@@ -16,7 +16,7 @@ Each subdirectory is a skill containing `SKILL.md` (required) plus optional supp
 
 **Development & Technical:** build, database, integrations, ai-features, deploy, secure, test, debug, optimize, monitor
 
-**Design & UX:** brand-identity-generator, aesthetics, ui-patterns, ux-design, motion-polish, design-review
+**Design & UX:** brand-identity-generator, beautify, ui-patterns, ux-design, motion-polish, design-review
 
 **SEO & Content:** seo, seo-content, seo-audit, technical-seo, content, copywriting
 
