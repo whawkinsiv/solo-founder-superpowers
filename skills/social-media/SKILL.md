@@ -132,6 +132,30 @@ Make them feel authentic, not corporate. Short and punchy.
 
 ## Growing Your Audience
 
+### X Evidence Pack Before Drafting
+
+Before creating a weekly plan for Twitter/X, gather a small source pack
+so the posts are grounded in current audience language:
+
+1. Pick 3-5 keywords from the product, ICP pain, and founder story.
+2. Collect recent public X posts for those keywords.
+3. Keep only post URL, handle, timestamp, text, and visible engagement.
+4. Extract repeated hooks, objections, product pains, and phrases.
+5. Use the patterns as evidence, not as copy to imitate.
+
+If the workspace runs OpenClaw, the agent can use TweetClaw for this
+collection:
+
+```
+Use @xquik/tweetclaw to collect recent public X posts about "<topic>".
+Return URLs, handles, timestamps, text, and visible engagement only.
+Do not draft, schedule, publish, reply, follow, or DM anyone.
+```
+
+Turn the pack into 5 specific post ideas. Each idea should include the
+source URL that inspired it, the customer pain it points at, and the
+pillar it belongs to. Keep every publishing step user-approved.
+
 ### The Reply Strategy (Fastest Growth Hack)
 
 The #1 way to grow on Twitter/X and LinkedIn is replying to larger accounts:
