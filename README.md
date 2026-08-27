@@ -1,6 +1,6 @@
 # Solo Founder Skills
 
-59 expert skills for non-technical founders building SaaS with AI tools (Claude Code, Lovable, Replit, Cursor).
+60 expert skills for non-technical founders building SaaS with AI tools (Claude Code, Lovable, Replit, Cursor).
 
 Covers the full lifecycle of planning, building, launching, and growing a software business — actionable guides, checklists, and copy-paste prompts.
 
@@ -110,7 +110,7 @@ Start a new session in your chosen platform and ask for something that should tr
 | **motion-polish** | Animations, micro-interactions, smooth transitions |
 | **design-review** | Design audit and quality gate before you ship |
 
-### Build & Technical (10 skills)
+### Build & Technical (11 skills)
 
 | Skill | What It Covers |
 |-------|----------------|
@@ -121,6 +121,7 @@ Start a new session in your chosen platform and ask for something that should tr
 | **secure** | Authentication, data protection, API security, vulnerability checks |
 | **test** | Test scenarios, edge cases, cross-browser testing |
 | **debug** | Systematic debugging, error interpretation, diagnostics |
+| **adversarial-loops** | Creator/critic review loops that catch what a single AI pass misses |
 | **dry** | Find and remove duplication across code, schema, and workflows |
 | **optimize** | Speed, bundle size, database, and hosting cost optimization |
 | **compliance** | HIPAA, SOC 2, GDPR, PCI, FERPA for regulated industries |
